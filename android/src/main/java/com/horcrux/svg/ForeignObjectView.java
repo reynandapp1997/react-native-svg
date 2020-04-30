@@ -16,7 +16,7 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.view.View;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.facebook.react.bridge.Dynamic;
 import com.facebook.react.bridge.ReactContext;

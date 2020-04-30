@@ -1235,7 +1235,7 @@ class RenderableViewManager extends ViewGroupManager<VirtualView> {
     }
 
     @ReactProp(name = ViewProps.POINTER_EVENTS)
-    public void setPointerEvents(VirtualView view, @androidx.annotation.Nullable String pointerEventsStr) {
+    public void setPointerEvents(VirtualView view, @android.support.annotation.Nullable String pointerEventsStr) {
         if (pointerEventsStr == null) {
             view.setPointerEvents(PointerEvents.AUTO);
         } else {
